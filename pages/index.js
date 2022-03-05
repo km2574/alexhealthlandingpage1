@@ -4,12 +4,14 @@ import styles from '../styles/Home.module.css'
 import Alex_nav from '../Components/Alex_nav'
 import Herosection from '../Components/Herosection'
 import Feature from '../Components/Feature'
+import Cta from '../Components/Cta'
 export default function Home() {
   return (
     <div>
       <Alex_nav/>
       <Herosection/>
       <Feature/>
+      <Cta/>
     </div>
   )
 }
