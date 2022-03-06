@@ -7,10 +7,22 @@ const Cta = () => {
     return (
         <div>
             <Container className="d-flex justify-content-around mt-5 mb-5">
-                <Button onClick={() => setModalShow(true)} className="px-5" sm={6} size="lg"> Book a call</Button>
-                <CustomModal show={modalShow}
-                    onHide={() => setModalShow(false)} />
-                <Button className="px-5 text-decoration-none" sm={6} size="lg"><Link href="http://wa.me/919657225542"><a className="text-white text-decoration-none">WhatsApp us</a></Link> </Button>
+                <Col className="d-flex justify-content-around" sm>
+                    <Button onClick={() => setModalShow(true)} size="lg">
+                        <span className="fa fa-phone" style={{ fontSize: 20 }}> </span>
+                        &nbsp;&nbsp;&nbsp;Book a free call
+                    </Button>
+                    <CustomModal show={modalShow}
+                        onHide={() => setModalShow(false)} />
+                </Col>
+                <Col className="d-flex justify-content-around" sm>
+                <Button className="flex justify-items-center my-auto" sm={6} size="lg">
+                                    <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
+                                    <a className="text-white text-decoration-none my-auto">
+                                        &nbsp;&nbsp;WhatsApp&nbsp;us
+                                    </a>
+                                </Button>
+                </Col>
             </Container>
         </div>
     )

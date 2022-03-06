@@ -10,20 +10,20 @@ const Feature = () => {
                 </Row>
                 <Row>
                     <Col sm>
-                        <span className="fa fa-twitter" style={{ fontSize: 100 }}> </span>
-                        <h2>Compare Hospitals’ Quality</h2>
-                        <p className="fs-5">Just like you wouldn’t buy a mobile phone without looking at its features. Get info on emergency services for complications, doctor’s expertise and experience, hospital’s size & speciality
+                        <span className="fa fa-clipboard" style={{ fontSize: 70 }}> </span>
+                        <h2 className="mt-1">Compare Hospitals’ Quality</h2>
+                        <p className="fs-5">Get info on emergency services for complications, doctor’s expertise and experience, hospital’s size & speciality
                         </p>
                     </Col>
                     <Col sm>
-                        <span className="fa fa-twitter" style={{ fontSize: 100 }}> </span>
-                        <h2>Compare Hospital Rates </h2>
-                        <p className="fs-5">Get an estimated price you need to pay including expenses for medical complications and other additional charges apart from baby-delivery
+                        <span className="fa fa-inr" style={{ fontSize: 70 }}> </span>
+                        <h2 className="mt-1">Compare Hospitals' Rates </h2>
+                        <p className="fs-5">Get estimated price including expenses for medical complications & additional charges apart from baby-delivery
                         </p>
                     </Col>
                     <Col sm>
-                        <span className="fa fa-twitter" style={{ fontSize: 100 }}> </span>
-                        <h2>Understand Insurance Coverage</h2>
+                        <span className="fa fa-check" style={{ fontSize: 70 }}> </span>
+                        <h2 className="mt-1">Understand Insurance Coverage</h2>
                         <p className="fs-5">Are you covered? Find out the final amount you need to pay after applying your insurance.
                         </p>
                     </Col>

@@ -52,7 +52,7 @@ const CustomModal = (props) => {
                 <Modal.Footer>
                     {/* <Button onClick={props.onHide}>Close</Button> */}
                     <div className="form-group mx-auto" >
-                        <Button variant="primary" type="submit" >Book a Demo</Button>
+                        <Button variant="primary" type="submit" >Book a Call</Button>
                     </div>
                 </Modal.Footer>
 
