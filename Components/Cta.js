@@ -19,7 +19,7 @@ const Cta = () => {
                 <Button className="flex justify-items-center my-auto" sm={6} size="lg">
                                     <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
                                     <a className="text-white text-decoration-none my-auto px-3">
-                                        &nbsp;&nbsp;WhatsApp&nbsp;us
+                                        &nbsp;WhatsApp&nbsp;us
                                     </a>
                                 </Button>
                 </Col>
