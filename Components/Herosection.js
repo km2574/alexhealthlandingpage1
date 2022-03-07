@@ -7,7 +7,7 @@ import CustomModal from "./CustomModal";
 const Herosection = () => {
     const [modalShow, setModalShow] = useState(false);
     return (
-        <div className="mt-5 mb-5 flex flex-column">
+        <div className="mt-5 mb-5 flex flex-column containerhero">
             <Container >
                 <Row className="mb-5 mt-5 pt-5" >
                     <Col lg={6} sm={12} md={6} className="my-auto center" md>

@@ -11,7 +11,7 @@ const Feature = () => {
                 <Row>
                     <Col sm>
                         <span className="fa fa-clipboard" style={{ fontSize: 70 }}> </span>
-                        <h2 className="mt-1">Compare Hospitals’ Quality</h2>
+                        <h2 className="mt-2">Compare Hospitals’ Quality</h2>
                         <p className="fs-5">Get info on emergency services for complications, doctor’s expertise and experience, hospital’s size & speciality
                         </p>
                     </Col>
