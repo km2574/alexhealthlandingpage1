@@ -23,7 +23,7 @@ const nav = () => {
                         <Navbar.Text className="fs-4">
 
                             <Link href="http://wa.me/919657225542" passHref>
-                                <Button className="flex justify-items-center my-auto" sm={6} size="lg">
+                                <Button className="wp-button flex justify-items-center my-auto border-0" sm={6} size="lg">
                                     <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
                                     <a className="text-white text-decoration-none my-auto">
                                         &nbsp;&nbsp;WhatsApp&nbsp;us

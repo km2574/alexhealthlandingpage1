@@ -22,15 +22,15 @@ const CustomModal = (props) => {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
             >
-                <Modal.Header closeButton>
+                <Modal.Header className="border-0" closeButton>
                     <Modal.Title id="contained-modal-title-vcenter" className="text-center">
                         Please fill in the details below
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body >
                     <form method="post" action="https://api.testself.com/contact">
                         <div className="form-group ">
-                            <label for="fullname">Patient Full Name</label>
+                            <label>Patient Full Name</label>
                             <input type="text" className="form-control" id="fullname" />
                         </div>
                         <div className="form-group mt-3">
@@ -49,10 +49,10 @@ const CustomModal = (props) => {
                     </form>
 
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="border-0">
                     {/* <Button onClick={props.onHide}>Close</Button> */}
                     <div className="form-group mx-auto" >
-                        <Button variant="primary" type="submit" >Book a Call</Button>
+                        <Button className="freecall border-0" variant="primary" type="submit" >Book a free call</Button>
                     </div>
                 </Modal.Footer>
 

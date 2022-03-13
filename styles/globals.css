@@ -47,3 +47,23 @@ a {
 .feature{
   background-color: rgb(245,246,247);
 }
+
+.introalexbg1{
+  background-color: #ccecf4;
+}
+
+
+.wp-button{
+  background-color: #54c796 !important;
+  border-radius: 30px !important;
+}
+
+.freecall{
+  border-radius: 30px !important;
+  background-color: #28a4f4 !important;
+}
+
+.introaleximg{
+  margin: auto !important;
+  display: block !important;
+}

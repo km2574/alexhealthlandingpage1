@@ -5,6 +5,7 @@ import Alex_nav from '../Components/Alex_nav'
 import Herosection from '../Components/Herosection'
 import Feature from '../Components/Feature'
 import Cta from '../Components/Cta'
+import IntroAlex from '../Components/IntroAlex'
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Home() {
       <Herosection/>
       <Feature/>
       <Cta/>
+      <IntroAlex/>
     </div>
   )
 }

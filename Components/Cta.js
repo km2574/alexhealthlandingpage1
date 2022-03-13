@@ -8,7 +8,7 @@ const Cta = () => {
         <div>
             <Container className=" mt-5 mb-5">
                 <Col className="d-flex justify-content-around my-2" sm>
-                    <Button onClick={() => setModalShow(true)} size="lg">
+                    <Button onClick={() => setModalShow(true)} size="lg" className="freecall border-0">
                         <span className="fa fa-phone px-1" style={{ fontSize: 20 }}> </span>
                         &nbsp;&nbsp;&nbsp;Book a free call
                     </Button>
@@ -16,12 +16,12 @@ const Cta = () => {
                         onHide={() => setModalShow(false)} />
                 </Col>
                 <Col className="d-flex justify-content-around my-2" sm>
-                <Button className="flex justify-items-center my-auto" sm={6} size="lg">
-                                    <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
-                                    <a className="text-white text-decoration-none my-auto px-3">
-                                        &nbsp;WhatsApp&nbsp;us
-                                    </a>
-                                </Button>
+                    <Button className="wp-button flex justify-items-center my-auto border-0" sm={6} size="lg">
+                        <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
+                        <a className="text-white text-decoration-none my-auto px-3">
+                            &nbsp;WhatsApp&nbsp;us
+                        </a>
+                    </Button>
                 </Col>
             </Container>
         </div>
