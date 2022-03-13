@@ -21,7 +21,7 @@ const Feature = () => {
                             alt="Alex Health"
                             className=""
                         />
-                        <h2 className="mt-2">Compare Hospitals’ <br/> Quality</h2>
+                        <h2 className="mt-2">Compare Hospital <br/> Quality</h2>
                         <p className="fs-5">Get info on emergency services for complications, doctor’s expertise and experience, hospital’s size & speciality
                         </p>
                     </Col>
@@ -36,7 +36,7 @@ const Feature = () => {
                             alt="Alex Health"
                             className=""
                         />
-                        <h2 className="mt-1">Compare Hospitals' <br/> Rates </h2>
+                        <h2 className="mt-1">Compare Hospital <br/> Rates </h2>
                         <p className="fs-5">Get estimated price including expenses for medical complications & additional charges apart from baby-delivery
                         </p>
                     </Col>
