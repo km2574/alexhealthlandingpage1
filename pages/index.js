@@ -9,6 +9,10 @@ import IntroAlex from '../Components/IntroAlex'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Alex Health </title>
+        {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
+      </Head>
       <Alex_nav/>
       <Herosection/>
       <Feature/>

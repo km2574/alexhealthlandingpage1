@@ -21,7 +21,7 @@ const IntroAlex = () => {
             </Row>
             <Row>
                 <Row className="mb-4">
-                    <Col>
+                    <Col sm>
                         <h3>
                             <span className="fa fa-check" style={{ fontSize: 25, paddingRight: 20 }}> </span>No Salespeople
                         </h3>
@@ -30,7 +30,7 @@ const IntroAlex = () => {
 
                         </p>
                     </Col>
-                    <Col>
+                    <Col sm>
                         <h3>
                             <span className="fa fa-check" style={{ fontSize: 25, paddingRight: 20 }}> </span>No spam ever
                         </h3>
@@ -41,7 +41,7 @@ const IntroAlex = () => {
                     </Col>
                 </Row>
                 <Row >
-                    <Col>
+                    <Col sm>
                         <h3>
                             <span className="fa fa-check" style={{ fontSize: 25, paddingRight: 20 }}> </span>30 min consultation
                         </h3>
@@ -49,7 +49,7 @@ const IntroAlex = () => {
                             Good advice takes time. And you will have our undivided attention for at least 30 mins.
                         </p>
                     </Col>
-                    <Col>
+                    <Col sm>
                         <h3>
                             <span className="fa fa-check" style={{ fontSize: 25, paddingRight: 20 }}> </span>It’s free
                         </h3>
