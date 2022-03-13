@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Image from "next/image"
 import IntroAlexCard from '../Components/IntroAlexCard'
+import Cta from "./Cta"
 
 const IntroAlex = () => {
     return (
@@ -73,6 +74,9 @@ const IntroAlex = () => {
                                 alt="Alex Health"
                                 className="introaleximg"
                             />
+                        </Row>
+                        <Row>
+                        <Cta/>
                         </Row>
                     </Col>
 

@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import Image from "next/image"
 const Feature = () => {
     return (
-        <div className="text-center feature mt-5 mb-5 pb-5">
+        <div className="text-center feature mt-5 pb-5">
             <Container>
                 <Row className="pt-5 pb-2 mb-4">
                     <h1>
