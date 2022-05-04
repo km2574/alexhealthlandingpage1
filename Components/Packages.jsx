@@ -7,8 +7,13 @@ const Packages = () => {
     return (
         <Container >
             <Row>
+                <h1 className="text-center my-5">
+                    Baby Delivery Packages
+                </h1>
+            </Row>
+            <Row>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="3.png" />
                         <Card.Body>
                             <Card.Title><h3>C-Section</h3></Card.Title>
@@ -28,7 +33,7 @@ const Packages = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="12.png" />
                         <Card.Body>
                             <Card.Title><h3>C-Section</h3></Card.Title>
@@ -48,7 +53,7 @@ const Packages = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="13.png" />
                         <Card.Body>
                             <Card.Title><h3>C-Section</h3></Card.Title>
@@ -70,7 +75,7 @@ const Packages = () => {
             </Row>
             <Row>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="3.png" />
                         <Card.Body>
                             <Card.Title><h3>Normal Delivery</h3></Card.Title>
@@ -91,7 +96,7 @@ const Packages = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="12.png" />
                         <Card.Body>
                             <Card.Title><h3>Normal Delivery</h3></Card.Title>
@@ -112,7 +117,7 @@ const Packages = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card className="mx-3 border-1 my-1" xs={1} md={2}>
+                    <Card className="mx-3 border-1 shadow-lg my-4" xs={1} md={2}>
                         <Card.Img variant="top" src="13.png" />
                         <Card.Body>
                             <Card.Title><h3>Normal Delivery</h3></Card.Title>
