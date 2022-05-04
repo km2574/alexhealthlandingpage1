@@ -11,7 +11,7 @@ const Cta = () => {
                     <Col className="d-flex justify-content-around my-2" sm>
                         <Button size="lg" className="freecall border-0">
                             <span className="fa fa-phone px-1" style={{ fontSize: 20 }}> </span>
-                            <a href="https://guf3l20p4as.typeform.com/to/Z9nZArHH" className="text-white text-decoration-none my-auto px-3">
+                            <a href="https://guf3l20p4as.typeform.com/to/Z9nZArHH" className="text-white text-decoration-none ">
                                 &nbsp;&nbsp;&nbsp;Book a free call
                             </a>
                         </Button>
