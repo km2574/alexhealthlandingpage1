@@ -67,3 +67,14 @@ a {
   margin: auto !important;
   display: block !important;
 }
+
+@media only screen and (max-width: 600px){
+  .mynav{
+    font-size: smaller !important;
+  }
+  
+  .mynavcontainer img{
+    width: 130px !important;
+    height: 37px !important ;
+  }
+}

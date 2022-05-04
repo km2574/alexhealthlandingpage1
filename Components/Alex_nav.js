@@ -5,7 +5,7 @@ const nav = () => {
     return (
         <div >
             <Navbar className="shadow-lg " fixed="top" expand="lg" bg="light" variant="dark">
-                <Container>
+                <Container className="mynavcontainer">
                     <Navbar.Brand className="fs-4" href="#home">
                         <Link href="/" passHref={true}>
                             <Image
@@ -15,24 +15,24 @@ const nav = () => {
                                 height={50}
                                 layout="intrinsic"
                                 alt="Alex Health"
+
                             />
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
-                    <Navbar.Collapse className="justify-content-end">
-                        <Navbar.Text className="fs-4">
+                    <Navbar.Text className="fs-4">
 
-                            <Link href="http://wa.me/919657225542" passHref>
-                                <Button className="wp-button flex justify-items-center my-auto border-0" sm={6} size="lg">
-                                    <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
-                                    <a className="text-white text-decoration-none my-auto">
-                                        &nbsp;&nbsp;WhatsApp&nbsp;us
-                                    </a>
-                                </Button>
-                            </Link>
+                        <Link href="http://wa.me/919657225542" passHref>
+                            <Button className="wp-button flex justify-items-center my-auto border-0 mynav " sm={6} size="lg">
+                                <span className="fa fa-whatsapp" style={{ fontSize: 25 }}> </span>
+                                <a className="text-white text-decoration-none my-auto">
+                                    &nbsp;&nbsp;WhatsApp&nbsp;us
+                                </a>
+                            </Button>
+                        </Link>
 
 
-                            {/* <Link href="http://wa.me/919657225542" passHref>
+                        {/* <Link href="http://wa.me/919657225542" passHref>
                                 <Button sm={6} size="lg" className="">
                                     <Image
                                         src="/wp.png"
@@ -44,8 +44,7 @@ const nav = () => {
                                     <span className=""><a>WhatsApp&nbsp;us</a></span>
                                 </Button>
                             </Link> */}
-                        </Navbar.Text>
-                    </Navbar.Collapse>
+                    </Navbar.Text>
                 </Container>
             </Navbar>
         </div>
