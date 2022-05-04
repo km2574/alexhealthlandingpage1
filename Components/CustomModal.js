@@ -28,13 +28,13 @@ const CustomModal = (props) => {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body >
-                    <form method="post" action="https://api.testself.com/contact" name ="detail">
+                    <form method="post" action="https://api.testself.com/contact" name="detail">
                         <div className="form-group ">
                             <label>Patient's Full Name</label>
-                            <input type="text" className="form-control" id="fullname" name ="fullName"/>
+                            <input type="text" className="form-control" id="fullname" name="fullName" />
                         </div>
                         <div className="form-group mt-3">
-                        {/* <label>Patient's Full Name</label> */}
+                            {/* <label>Patient's Full Name</label> */}
                             <PhoneInput
                                 placeholder="Enter Phone Number"
                                 name="phoneNumber"
@@ -56,20 +56,8 @@ const CustomModal = (props) => {
 
             </Modal>
 
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
-            <script>
-                const scriptURL = 'https://script.google.com/macros/s/AKfycbzypUy60IZw2iDYX81aQOjio3UpP8mHC5rBDuNoEG1y_ThZRWKTP8TkPmcNuVH0ap0Q/exec'
-                const form = document.forms['detail']
-                form.addEventListener('submit', e => {
-                    e.preventDefault()
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => console.log('Success!', response))
-                    .catch(error => console.error('Error!', error.message))
-                })
-            </script>
-            
-            
-            </>
+
+        </>
 
     );
 }
