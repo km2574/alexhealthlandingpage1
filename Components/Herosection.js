@@ -18,7 +18,7 @@ const Herosection = () => {
                         <br />
                         <Button size="lg" className="freecall border-0">
                             <span className="fa fa-phone" style={{ fontSize: 20 }}> </span>
-                            <a href="https://guf3l20p4as.typeform.com/to/Z9nZArHH" className="text-white text-decoration-none my-auto px-3">
+                            <a href="https://forms.gle/xJ2m6jDv16DMUg2P6" className="text-white text-decoration-none my-auto px-3">
                                 Book a free call
                             </a>
                         </Button>
